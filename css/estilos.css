@@ -1,0 +1,187 @@
+.fondoheader{
+    width: 100%;
+    height: 500px;
+}
+header{
+    border: 0px;
+}
+ul li{
+    list-style: none;
+}
+nav{
+    text-align: right;
+    padding: 50px;
+    position: absolute;
+    top: 0px;
+    left: 65%;
+    color: white;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+li{
+    display: inline-block;
+    margin: 2px;
+}
+h1{
+    top: 0px;
+    padding: 5px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    position: absolute;   
+    left: 5%;
+    font-size: 4em;
+    text-align: center;
+}
+.btnnav{
+    color:white;
+}
+.btn{
+    color:white;
+    background-color:orange;
+    width: 300px;
+    height: 50px;
+    border: orange;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.arriba{
+    position: absolute;
+    top: 40%;
+    color: white;
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    left: 5%;
+}
+.abajo{
+    position: absolute;
+    top: 50%;  
+    color: white;
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    left: 5%;
+}
+p{
+    text-align: center;
+}
+div.row div{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 400px;
+    border: 10px;
+    padding: 15px;
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.h2font, h3{
+    text-align: center;
+    font-family: 'Thasadith', sans-serif;
+    font-size: 2em;
+}
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-ventas{
+    display:inline-block;
+    box-sizing: border-box;
+    border: 10px;
+    padding: 15px;
+    justify-content: center;
+    left: 15px;
+}
+#lago,#lujo,#alberca{
+    width: 350px;
+    padding: 0px 0px;
+}
+div.row div.iconos{
+    display:inline-flex;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px 30px;
+    text-align: left;
+}
+div.row div.casas{
+    box-sizing: border-box;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.068);
+    margin: 5px;
+    padding: 0px 20px 10px 20px;
+    
+}
+h3, .izquierda, .precios{
+    text-align: justify;
+    
+}
+.izquierda, .precios, .btn{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:bolder;
+}
+.precios{
+    color: green;
+}
+h4{
+    text-align: left;
+}
+.btnverde{
+    background-color: rgb(116, 189, 68);
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: 1px solid  rgb(64, 158, 64);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.verde{
+    justify-content: flex-end;
+    margin: 15px 141px;
+}
+#encuentra{
+    width: 100%;
+    height: 350px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.795);
+    text-align: left;
+    position:absolute;
+    color: white;
+    width: 99%;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: inline-block;
+}
+.enimagen{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    left: 110px;
+    position: absolute;
+    margin: 100px;
+       
+}
+.enimagen2{
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    left: 31px;
+    position: absolute;
+    margin: 180px;
+}
+.contactanos{
+    background-color: orange;
+    color: white;
+    position: absolute;
+    justify-content: flex-end;
+    margin: 250px;
+    right: 855px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid orange;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+    font-size: 1em;
+}
+.divderecha{
+	float:right;
+}
